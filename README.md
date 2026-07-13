@@ -1,3 +1,6 @@
+# CONTACT DETAILS
+**DUZOKHO DOZO, 9366595479, duzokhodozo2@gmail.com**
+
 # Stage 1 – Backend API
 
 This repository contains **Stage 1** of the assessment: a backend authentication API built with **Node.js**, **Express**, and **MySQL**.

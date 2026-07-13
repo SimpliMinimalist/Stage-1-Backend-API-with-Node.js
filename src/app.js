@@ -47,6 +47,13 @@ if (config.server.env === "development") {
 } else {
   app.use(morgan("combined"));
 }
+
+app.get("/", (_req, res) => {
+  res.status(200).json({
+    success: true,
+    message: "Welcome to the Stage 1 Authentication API. Please use the /api endpoints.",
+  });
+});
 app.get("/health", (_req, res) => {
   res.status(200).json({
     success: true,

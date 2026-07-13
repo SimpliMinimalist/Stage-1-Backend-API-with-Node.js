@@ -102,7 +102,18 @@ Server running on port 3000
 
 ## API Documentation and Verification
 
-To verify the API functionality, we will use **Postman**, a popular API testing tool.
+### 0. Quick Browser Check
+
+Before using Postman, you can instantly verify the server is running by opening your web browser and navigating to `http://localhost:3000`. You should see the following welcome message:
+
+```json
+{
+  "success": true,
+  "message": "Welcome to the Stage 1 Authentication API. Please use the /api endpoints."
+}
+```
+
+To fully verify the API endpoints, we will use **Postman**, a popular API testing tool.
 
 ### Postman Setup
 
